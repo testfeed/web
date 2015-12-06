@@ -1,9 +1,0 @@
-modalID: 1
-title: Camelot Global
-subtitle: Camelot Global is a leading advisor and lottery solution provider to lotteries around the world
-img: camelot.png
-preview: camelot-preview.png
-client: Camelot Global
-clientLink: "http://camelotglobal.com/"
-category: Lottery solutions
-description: TestFeed has helped some of Camelot Global's green field projects with test automation using Cucumber and Geb as frameworks. One of the main projects was an integration of a mobile payments provider within the National Lottery's platform.
