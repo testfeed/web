@@ -1,8 +1,15 @@
 # Site settings
-baseurl = "http://testfeed.co.uk/"
+baseurl = "http://testfeed.co.uk/testfeed_gh_pages"
 languageCode = "en-us"
-title = "TestFeed"
+title = "TestFeed website"
 theme = "hugo-agency-theme"
+canonifyurls = true
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+licenselink = "//github.com/digitalcraftsman/hugo-agency-theme/blob/master/LICENSE"
+features = ["blog", "themes", "disqus"]
+min_version = 0.15
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-51211580-1"
 
