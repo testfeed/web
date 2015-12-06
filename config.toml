@@ -2,7 +2,6 @@
 baseurl = "http://testfeed.co.uk/testfeed_gh_pages"
 languageCode = "en-us"
 title = "TestFeed website"
-theme = "hugo-agency-theme"
 canonifyurls = true
 contentdir = "content"
 layoutdir = "layouts"
@@ -82,7 +81,7 @@ googleAnalytics = "UA-51211580-1"
                 title = "Guidance"
                 description = "We can help you find your bearings in terms of what to deliver and how"
 
-	
+
 	# Client section
 	# All the clients' logos are stored under 'static/img/logos'.
 	# Replace them with your clients's logos.
