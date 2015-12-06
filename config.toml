@@ -155,7 +155,7 @@ googleAnalytics = "UA-51211580-1"
 	[params.team]
 		title = "Our amazing team"
 		subtitle = "What makes us special is our people"
-		description = "We work with several experienced software engineers spread across Romania. They're specialties range from devops to test automation and full stack developers. You can be sure you're always going to have the most knowledgeable engineer working on your team"
+		description = "We work with several experienced software engineers spread across Romania. Their specialties range from devops to test automation and full stack developers. You can be sure you're always going to have the most knowledgeable engineer working on your team"
 
 
 	# Contact section
