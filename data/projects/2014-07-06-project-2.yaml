@@ -1,9 +1,9 @@
 modalID: 2
-title: AngelPro
-subtitle: Portfolio Monitoring for Investors
+title: angelPro
+subtitle: Essential Software for UK Startups
 img: angelpro.png
 preview: angelpro-preview.png
-client: AngelPro
-clientLink: "http://angelpro.co.uk"
-category: Portfolio Monitoring
-description: "[AngelPro](//angelpro.co.uk) is the most sophisticated Portfolio Monitoring service available to investors in UK private companies. TestFeed has offered services for feature delivery including Ruby on Rails development and automation, alongside commercial website design"
+client: angelPro
+clientLink: "https://angelpro.co.uk"
+category: Software for UK Startups
+description: "angelPRO’s platform makes running a startup in the UK easier for entrepreneurs. The platform enables Statutory Registers, Companies House submissions and cap tables to be maintained through a single data entry process, and also offers investor reporting functionality too. As angelPRO’s chosen IT resources partner, to date TestFeed has provided contractors covering Ruby on Rails development, automated integration testing, and also commercial website design."

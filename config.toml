@@ -8,6 +8,7 @@ canonifyurls = true
 languageCode = "en-us"
 title = "TestFeed website"
 licenselink = "//github.com/digitalcraftsman/hugo-agency-theme/blob/master/LICENSE"
+features = ["blog"]
 min_version = 0.15
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-51211580-1"
@@ -48,6 +49,7 @@ googleAnalytics = "UA-51211580-1"
 		about = "About"
 		team = "Team"
 		contact = "Contact"
+		blog = "Blog"
 
 
 	# Hero section
@@ -199,3 +201,8 @@ googleAnalytics = "UA-51211580-1"
 		[[params.footer.quicklinks]]
 			text = "Terms of Use"
 			link = "#"
+
+    #Blog page
+#    [permalinks]
+#        post = "/:year/:month/:filename/"
+#        code = "/:filename/"

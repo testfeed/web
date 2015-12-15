@@ -2,7 +2,7 @@
 date = "2015-12-06T17:11:17Z"
 draft = true
 title = "Lessons learned from my first webinar"
-
+type = "post"
 +++
 
 <p>As things have it, I decided to help out some fellow testers to navigate the waters of software testing. It all started with a bit of a chat on how to approach testing when you're a junior and generally inexperienced. What to start reading, what to try out and all sort of other "what" type questions.</p>

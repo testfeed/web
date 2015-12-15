@@ -17,7 +17,6 @@
                         <img class="img-responsive img-centered" src="img/portfolio/{{ .img }}" alt="">
                         <p>{{ .description | markdownify }}</p>
                         <ul class="list-inline">
-                            <li>{{ with $.Site.Params.portfolio.modal.date }}{{.}}{{ end }}: {{ .date }}</li>
                             <li>{{ with $.Site.Params.portfolio.modal.client }}{{.}}{{ end }}: <a href="{{ .clientLink }}">{{ .client }}</a></li>
                             <li>{{ with $.Site.Params.portfolio.modal.category }}{{.}}{{ end }}: {{ .category }}</li>
                         </ul>
