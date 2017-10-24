@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">TestFeed</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2017-10-24T20:06:19+01:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>Adrian Rapan</name>
+  <uri>http://localhost:4000/</uri>
+  <email>adrian@testfeed.co.uk</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Looking back at Testathon]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/uncategorized/testing/looking-back-at-testathon/" />
+  <id>http://localhost:4000/uncategorized/testing/looking-back-at-testathon</id>
+  <published>2014-03-11T04:57:00+00:00</published>
+  <updated>2014-03-11T04:57:00+00:00</updated>
+  <author>
+    <name>Adrian Rapan</name>
+    <uri>http://localhost:4000</uri>
+    <email>adrian@testfeed.co.uk</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;On 25th of January I went to meet with some great folks from the testing industry at a testathon (hackathon for testers).&lt;/p&gt;
+&lt;p&gt;Our purpose was to team up and find some bugs. We had a team in less than 5 minutes from meeting up so we were team 1.&lt;/p&gt;
+&lt;p&gt;We did plenty of bug finding, networking and overall good fun.&lt;/p&gt;
+&lt;p&gt;We were logging bugs as quickly as possible and the rules were that if somebody else was raising the same bug with an earlier time stamp they would have the full rights to it.&lt;/p&gt;
+&lt;p&gt;Overall the number of bugs per app went down as we went through the day. Not sure if it was because the apps were getting more mature or if our blood alcohol level was increasing.&lt;/p&gt;
+&lt;p&gt;Lots of prize categories , and I managed to snap the one for &quot;The Most Hacker Way of finding a bug&quot; which came with a ticket to Test Bash from The Ministry of Testing and 50 pounds to spend on a luxury cab ride with Uber. Also team 1 got some King marketing prizes for being the most chatty (ahem....collaborative) team.&lt;/p&gt;
+&lt;p&gt;My strategy was to focus on a few heuristics and apply them to obscure areas of the mobile applications we were testing. All three apps had account management features that could be exercised from both the mobile app and the web app. So I started verifying how synchronising between the two worked. And I came across some interesting findings. Mostly it was around modifying my account details in one of the apps and checking for that update in the other one. Or removing something from my account in the web app and checking the side effects in the mobile app. The app provided by King had a limitation here as it uses Facebook for sharing game state (scores, lives etc) between devices and Facebook doesn&#39;t allow too many requests to be made by third parties in a 5 minute window so getting different devices into different states was quite easy. Knowing the limitations of any 3rd party libraries employed by the app is always a good thing to know.&lt;/p&gt;
+&lt;p&gt;Some impressions from the providers of the mobile apps: Anthony Rose from Zeebox admitted being surprised at the many ways everybody approached testing while Dominic Assirati from King was impressed at the level of attention to detail of the testers.&lt;/p&gt;
+&lt;p&gt;Pros:&lt;/p&gt;
+&lt;p&gt;- was on a Saturday for a full day in an excellent location; food was abundant; prizes; excellent organisation and presentation; lots of interesting people from all over the globe.&lt;/p&gt;
+&lt;p&gt;Cons:&lt;/p&gt;
+&lt;p&gt;- apps were already known; not a lot of interaction within the team in terms of strategizing and learning new testing techniques/tools/etc.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I would definitely attend the next one. Also the organisers promised a document to sum up the participants&#39; experiences. When that surfaces I&#39;ll add it here.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/uncategorized/testing/looking-back-at-testathon/&quot;&gt;Looking back at Testathon&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on March 11, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[LMAX Exchange is hiring]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/uncategorized/lmax-exchange-is-hiring/" />
+  <id>http://localhost:4000/uncategorized/lmax-exchange-is-hiring</id>
+  <published>2013-11-24T23:48:50+00:00</published>
+  <updated>2013-11-24T23:48:50+00:00</updated>
+  <author>
+    <name>Adrian Rapan</name>
+    <uri>http://localhost:4000</uri>
+    <email>adrian@testfeed.co.uk</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;LMAX Exchange is looking for a new senior tester who enjoys technical challenges. If you&#39;re interested here are some of the things we&#39;re looking for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;you are doing exploratory testing with all sorts of tools,&lt;/li&gt;
+&lt;li&gt;you have been using Webdriver for quite some time now but you don&#39;t shy away from an API level test,&lt;/li&gt;
+&lt;li&gt;you understand web technologies and you know why Chrome/Firefox are better browsers than IE at the moment,&lt;/li&gt;
+&lt;li&gt;you understand how Javascript and HTML tie together,&lt;/li&gt;
+&lt;li&gt;you have dabbled into Linux and liked it for your back-end testing needs,&lt;/li&gt;
+&lt;li&gt;you like coding your own tools to uncover different emergent behaviours in the system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you join LMAX Exchange, you&#39;ll get to play with a very mature custom testing framework (think API clients and Webdriver) and interact with some of the best Java developers out there. Also you&#39;ll be part of a proper agile team where the business actually gets it.&lt;/p&gt;
+&lt;p&gt;Let me know if your interested or checkout this URL - &lt;a href=&quot;http://www.lmax.com/careers#senior-test-analyst&quot;&gt;http://www.lmax.com/careers#senior-test-analyst&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/uncategorized/lmax-exchange-is-hiring/&quot;&gt;LMAX Exchange is hiring&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on November 24, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Psychology of an Inventive Tester]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/testing/heuristics/psychology-of-an-inventive-tester/" />
+  <id>http://localhost:4000/testing/heuristics/psychology-of-an-inventive-tester</id>
+  <published>2013-11-21T20:18:01+00:00</published>
+  <updated>2013-11-21T20:18:01+00:00</updated>
+  <author>
+    <name>Adrian Rapan</name>
+    <uri>http://localhost:4000</uri>
+    <email>adrian@testfeed.co.uk</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;It is not a job requirement, but when getting hired as a software tester your creativeness will be assessed either through some interview questions or in a practical task. The funny thing is that employers should be careful what they wish for, as an overly creative tester can sometimes be less productive at finding those tricky bugs.&lt;br /&gt;
+This is because as a creative tester you need to understand that the mind plays tricks on you. It needs to do so to keep you sane. The brain is hardwired to draw conclusions of your experiences and store them for easy access, instead of recording every bit of information that your senses pick up. So you won’t remember what the layout of all the pages on a website are or what it said on page 4 of a 15 page wizard. You are a tester - you’ll build trust in the system while exploring. For the benefit of your future self and the team, write down details of your experience. Don’t let your mind draw the conclusions, as the only thing you will get is how worrying it felt when you got a 404 but couldn’t remember how you got there in the first place. Frustration ensues, another nice sentiment that your brain will store in association with the application.&lt;br /&gt;
+Don’t over-engineer. Enthusiastic/creative testers will often attack problems straight on. This is usually how an exploratory testing session works. Your brain will brainstorm some thoughts more or less plausible and you will start choosing one and then another, linking them together in what you hope to be a good lead to a buggy area of the system. If you’ve identified a task that needs a clever solution to get it done, remember to take a step back and assess all of your options. It might not hit you straight away, but if your solution takes more than one hour to carry out then you might have to think of another one. If you still can’t find that elegant or clever or simple or just plain beautiful solution then look around for answers. You will soon find out that taking your time and discussing different options with your fellow testers might have saved you the exercise of spending almost a day on over-engineering a solution.&lt;br /&gt;
+I can’t get enough of quoting this little phrase which has such a huge impact in understanding the world we live in:&lt;br /&gt;
+&lt;em&gt;“The brain and the eye may have a contractual relationship in which the brain has agreed to believe what the eye sees, but in return the eye has agreed to look for what the brain wants.”&lt;/em&gt;&lt;br /&gt;
+[Stumbling on Happiness – Daniel Gilbert]&lt;br /&gt;
+Now in order to avoid getting mixed feelings about the application instead of what should have been a clear and concise mental model of the system here is a recommendation:&lt;br /&gt;
+Start out with a mind map and jot down all your creative thoughts. After finishing, take a step back and analyse which nodes of your mind map might be too outrageous to happen or it’s not that they will never happen but let’s just say that it’s not in the user’s best interest to unplug the computer. Your rule must be “if it makes sense for the business it stays in the mind map”. Get a business analyst to help you focus and remove extraneous ideas from your mind map. Use a tool to make notes on what you observe while testing. Your mental model of the system will need a refresh from time to time. This usually happens when you think that there are no bugs left in the system. One of the best ways to refresh your ideas is to get rid of what you’ve already covered. With a repository you will more easily remember everything you did and all the conclusions you’ve drawn along the way.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/testing/heuristics/psychology-of-an-inventive-tester/&quot;&gt;Psychology of an Inventive Tester&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on November 21, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Co-presenting at Agile Testing & BDD eXchange]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/speaking/events/agile-testing-bdd-exchange/" />
+  <id>http://localhost:4000/speaking/events/agile-testing-bdd-exchange</id>
+  <published>2013-11-21T12:19:59+00:00</published>
+  <updated>2013-11-21T12:19:59+00:00</updated>
+  <author>
+    <name>Adrian Rapan</name>
+    <uri>http://localhost:4000</uri>
+    <email>adrian@testfeed.co.uk</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I&#39;ll be joining &lt;a title=&quot;Tony Bruce blog&quot; href=&quot;http://dancedwiththetester.blogspot.co.uk/&quot; target=&quot;_blank&quot;&gt;Tony Bruce&lt;/a&gt; to present at the Agile Testing &amp;amp; BDD Exchange at Skills Matter in London, on 22nd of November 2013. We&#39;ll be covering the subject &quot;What do testers do?&quot;. Topics will include: what makes a tester tick, what sort of skills are useful to a tester and more than anything else how a tester brings value to a project, to the organisation and the client.&lt;br /&gt;
+For more details check out the official page of the talk&lt;br /&gt;
+&lt;a href=&quot;http://skillsmatter.com/podcast/agile-testing/what-do-testers-do&quot; target=&quot;_blank&quot;&gt;http://skillsmatter.com/podcast/agile-testing/what-do-testers-do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To find out more about the eXchange you can visit the official Skills Matter event page&lt;br /&gt;
+&lt;a href=&quot;http://skillsmatter.com/event/agile-testing/agile-testing-bdd-exchange-2013&quot; target=&quot;_blank&quot;&gt;http://skillsmatter.com/event/agile-testing/agile-testing-bdd-exchange-2013&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hope to see you there.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/speaking/events/agile-testing-bdd-exchange/&quot;&gt;Co-presenting at Agile Testing &amp; BDD eXchange&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on November 21, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Questioning EuroSTAR conference]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/speaking/events/questioning-eurostar-conference/" />
+  <id>http://localhost:4000/speaking/events/questioning-eurostar-conference</id>
+  <published>2013-11-18T01:05:09+00:00</published>
+  <updated>2013-11-18T01:05:09+00:00</updated>
+  <author>
+    <name>Adrian Rapan</name>
+    <uri>http://localhost:4000</uri>
+    <email>adrian@testfeed.co.uk</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Conference finished, presentation done, time to reflect.&lt;/p&gt;
+&lt;p&gt;Monday&#39;s keynote - &quot;Skeptical self-defense for the serious tester or, how to call a $37 billion bluff&quot; by Laurent Bossavit - being bullied with false claims, metrics. Don&#39;t rely on hearsay. Apply science to your ways, measure and back your claims with relevant data. At one point the speaker made a claim that he&#39;s not speaking to an audience of Agile testers. Now how did he know that? Did he apply any scientific method to substantiate his claim?&lt;/p&gt;
+&lt;p&gt;Track session - &quot;&lt;a href=&quot;https://www.dropbox.com/s/2n8iltar73225ch/t4-one-more-question.pdf&quot; target=&quot;_blank&quot;&gt;One more question...&lt;/a&gt;&quot; by &lt;a href=&quot;http://dancedwiththetester.blogspot.co.uk/&quot; target=&quot;_blank&quot;&gt;Tony Bruce&lt;/a&gt; - Tony&#39;s talk fell into the informative category. He talked about different types of questions that can be used to explore. Probably the one that I heard being mentioned a lot after his talk was the one around &quot;Quiet&quot; or &quot;intentional dead air&quot;, mainly to make the counter party uncomfortable enough that the silence is broken. He really tried not to make the presentation software testing specific and instead turned it into a life lesson that can be applied to any context. I really enjoyed his personal touch with examples from his own life. From the talks I attended this one seemed like the only one where the audience was very engaged and having a laugh from time to time.&lt;/p&gt;
+&lt;p&gt;Then came my session &quot;Questioning Acceptance Tests&quot; which you can have a look &lt;a title=&quot;Questioning Acceptance Tests&quot; href=&quot;https://www.dropbox.com/s/ex7elqa8yivzbmd/questioning-acceptance-tests.pdf&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; in case Prezi is down. Probably the main conclusion of my talk was that with property based testing, even before considering what tools to use, you first have to ask yourself if this is the right strategy for me. It can get pretty complex and time consuming to try and model a big system when the foundation hasn&#39;t been laid through simpler models from when the SUT started emerging. One nice finding was that Kristian Karl from Spotify, in his talk on &quot;&lt;a href=&quot;https://www.dropbox.com/s/okqys8yqii05i7e/t3-experiences-of-test-automation-at-spotify-1.pdf&quot; target=&quot;_blank&quot;&gt;Experiences of test automation at Spotify&lt;/a&gt;&quot; (which unfortunately I missed) had used some of the tools which I&#39;ve used to extend my research into property based testing. Mainly the model based testing approach of creating chains of states and transitions with &lt;a title=&quot;Graphwalker&quot; href=&quot;http://graphwalker.org/&quot; target=&quot;_blank&quot;&gt;Graphwalker&lt;/a&gt; and &lt;a title=&quot;yEd&quot; href=&quot;http://www.yworks.com/en/products_yed_about.html&quot; target=&quot;_blank&quot;&gt;yEd&lt;/a&gt;. But that&#39;s a post for another day.&lt;/p&gt;
+&lt;p&gt;After talking it over with &lt;a title=&quot;Workroom-productions&quot; href=&quot;http://www.workroom-productions.com/&quot; target=&quot;_blank&quot;&gt;James Lyndsay&lt;/a&gt;, I got the impression that some of the attendees felt that I was trying to present the new and only way of testing. This couldn&#39;t have been further from the truth. Yes, in my simple case, plain old boundary analysis and equivalence partitioning would&#39;ve covered the testing of the story but what about the next story that comes down the line and wants to use the same type of objects as input? With QuickCheck you get reusability and increased coverage due to the input objects covering all combinations that can be found in production. Spock also made for a handy way of abstracting almost half of the initial 50 integrations tests I was trying to replace.&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;https://prezi.com/embed/rmi2hifjzpbe/?bgcolor=ffffff&amp;amp;lock_to_path=0&amp;amp;autoplay=0&amp;amp;autohide_ctrls=0&amp;amp;features=undefined&amp;amp;disabled_features=undefined&quot; height=&quot;400&quot; width=&quot;550&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;The 2nd keynote of the day replaced the initially advertised keynote with &quot;Using sociology to examine testing expertise&quot; by Robert Evans. Robert is a doctor in social sciences with the Cardiff School of Social Sciences and talked about polimorphic and mimeomorphic actions. How humans distinguish themselves from machines through interactions in a social context described by tacit and cultural knowledge. And thus with the current level of artificial intelligence this is not attainable just yet although he did say if somebody had a positronic brain lying around he would like to hear about it. Some books he recommended: &quot;&lt;a title=&quot;The shape of actions: What humans and machines can do&quot; href=&quot;http://amzn.to/1bGIF5a&quot; target=&quot;_blank&quot;&gt;The shape of actions: What humans and machines can do&lt;/a&gt;&quot; by Martin Kusch and &quot;&lt;a title=&quot;Tacit and explicit knowledge&quot; href=&quot;http://amzn.to/17E01Rf&quot; target=&quot;_blank&quot;&gt;Tacit and explicit knowledge&lt;/a&gt;&quot; by Harry Collins. I&#39;ll be sure to check them out.&lt;/p&gt;
+&lt;p&gt;Second day&#39;s morning keynote was entitled &quot;Creating dissonance: Overcoming organizational bias toward software testing&quot; by Keith Klain. This one was a personal war story of how Keith managed to fight his way to the top, becoming a manager for 800 testers at Barclays and how he overcame biases against testing. His talk didn&#39;t resonate that much with my current context so all I wish is that the stories he presented are less and less prevalent.&lt;/p&gt;
+&lt;p&gt;I then went to attend &quot;&lt;a title=&quot;Specification by example with GUI tests - How could that work?&quot; href=&quot;https://www.dropbox.com/s/ydcs24kpjg6ank4/w3-spec-by-example-with-gui-tests.pdf&quot;&gt;Specification by example with GUI tests - How could that work&lt;/a&gt;&quot; by Emily Bache and Geoff Bache. They covered using &lt;a title=&quot;TextTest&quot; href=&quot;http://texttest.sourceforge.net/&quot; target=&quot;_blank&quot;&gt;TextTest&lt;/a&gt; to automate testing of desktop applications. The tool allows you to define domain objects while automating and thus avoiding the pain of later refactorings. I really liked the way the tool allowed you to interact with the application under test making a lot of the defining of domain objects quite easy. Also the ASCII art output was amazing and you can see there&#39;s been a lot of effort involved in creating the tool. Once a &quot;screenshot&quot; of the app was created as ASCII art, you could then diff that against a later version of the app. It had the option of defining filters on what to output so you don&#39;t end up diffing everything under the sun. For instance maybe you don&#39;t care that the font on a button label changed so you could filter that out. My initial impression was &quot;not another play/record tool&quot; but that quickly got dispelled. Another idea I had was cement. When they initially showed the ASCII output I was thinking that&#39;s way too much information being captured which would act as cement against any future software changes. Imagine you had a lot of unit tests trying to test everything and you did a refactoring of a few classes and suddenly 200 unit tests fail. But they introduced filters which can be defined as regular expressions. Although filters are a good idea I&#39;m not so sure about regular expressions. So if you have a desktop GUI to test that&#39;s Java or Python based you might want to give it a shot. Also Emily&#39;s workshop on Thursday, &quot;&lt;a title=&quot;Readable, executable requirements: Hands-on&quot; href=&quot;https://www.dropbox.com/s/naj4el65rahoz1m/aw3-readable-executable-requirements.pdf&quot; target=&quot;_blank&quot;&gt;Readable, executable requirements: hands-on&lt;/a&gt;&quot; on using Cucumber feature files was a treat. We wrote Cucumber tests for the &lt;a title=&quot;Gilded Rose&quot; href=&quot;https://github.com/emilybache/GildedRose-Refactoring-Kata&quot; target=&quot;_blank&quot;&gt;Gilded Rose&lt;/a&gt; using Emily&#39;s &lt;a title=&quot;Cyber Dojo&quot; href=&quot;http://www.cyber-dojo.com/&quot; target=&quot;_blank&quot;&gt;cyber dojo&lt;/a&gt; which she had setup &lt;a href=&quot;http://54.228.126.85/?id=A7F4BF65F2&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. I only wish more workshops were integrated within the conference itself rather than as separate paid for.&lt;/p&gt;
+&lt;p&gt;Another good talk was from Jouri Dufour on &quot;&lt;a title=&quot;How about security testing&quot; href=&quot;https://www.dropbox.com/s/in9dc3cz0gbtfhn/w11-how-about-security-testing-2.pdf&quot; target=&quot;_blank&quot;&gt;How about security testing&lt;/a&gt;&quot;. Now his talk was full of really useful tips on common sense security testing. This is so vital to our trade as testers that you should just go now and have a look at the examples in his presentation. You&#39;ll probably come out more knowledgeable about security testing and especially of how easy it is to think like a hacker.&lt;/p&gt;
+&lt;p&gt;I also went to Anna Baik&#39;s presentation on &quot;&lt;a title=&quot;The unboxed tester&quot; href=&quot;https://www.dropbox.com/s/127vbjwv1ubbmpv/w16-the-unboxed-tester.pdf&quot; target=&quot;_blank&quot;&gt;The unboxed tester&lt;/a&gt;&quot;. I had a chance to chat with her about what drove her towards this subject and it was quite a personal one, having returned to work after a long period of time she was confronted with different mentalities/prejudices from her new peers.&lt;/p&gt;
+&lt;p&gt;After all this I went to check out the Test Lab as last year&#39;s one was the main attraction point for me. This time they had more stuff to do and to try out. What I did notice is that when a tester tries to take on an app in the Test Lab, they&#39;ll eventually revert to doing security testing. Some of them more prepared than others. While it&#39;s nice to see testers being concerned with security testing I can&#39;t but think about the other stuff they&#39;re missing out on: pairing with other testers when exploring the app, using different tools to record their findings, mind mapping, modelling their understanding of how the app should behave, brainstorming ideas. Some of the apps in the Test Lab didn&#39;t lend themselves to security testing - James&#39;s puzzles, for instance, &lt;a title=&quot;Puzzle 9&quot; href=&quot;http://www.workroom-productions.com/puzzle_09.html&quot; target=&quot;_blank&quot;&gt;one&lt;/a&gt; of which I managed to solve and got the official Lab Rat badge and a kudos tweet from James. I only managed to solve it after modelling the states of the system on a piece of paper. I also had a chance to pair with &lt;a title=&quot;thefriendlytesters&quot; href=&quot;http://www.thefriendlytester.co.uk/&quot; target=&quot;_blank&quot;&gt;Richard&lt;/a&gt; on one of the puzzles but we didn&#39;t get too far with that as I joined mid way through and instead of trying to take notes on the behaviours of the app, I was interfering with Richard&#39;s train of thoughts and ended up being a &quot;two cooks...&quot; kind of story. I later found out he solved the puzzle. Congrats!&lt;/p&gt;
+&lt;p&gt;The last keynote of the conference came from Martin Pol, &quot;Questioning the evolution of testing: What&#39;s next&quot;. The presentation showcased the history of software testing all the way from the 70s when anybody doing testing was a pioneer. But by working together in close collaboration and being flexible in meeting their goals, much like Agile, they managed to find the issues before reaching production. He associated this to a pioneering stage in the evolution of software testing . Later on managers demanded more reproducibility of the testers&#39; ways, more process such that new people didn&#39;t have to reinvent the wheel all the time. You might even compare this to a waterfall approach. According to Martin this was the maturation phase of software testing. Later on came the optimising stage through the Agile way of building software when all the team members are working in close collaboration to deliver software, building on the great techniques and tools developed over the decades.&lt;/p&gt;
+&lt;p&gt;The Android/iOs app for the conference was an absolute delight to use, although for some reason the sessions didn&#39;t have the room number on them. I don&#39;t think it was promoted to its full potential. It could&#39;ve proved an excellent tool for people to interact with each other and get feedback on presentations, events, test lab sessions you name it. Unfortunately not a lot of people used it for that purpose, or not as much. One explanation might be the lack of anonymity when offering feedback or when engaging into discussions. So maybe next time the app could have an option for submitting feedback anonymously or through an avatar. Hopefully more and more conferences will start using such apps to engage with the audience. I could even see such an app being used for submitting questions from the audience after a session.&lt;/p&gt;
+&lt;p&gt;The Q&amp;amp;A sessions at the end of each talk seemed to help with organising the questions and thus felt a bit more efficient than other conferences I&#39;ve been to. Sadly not all speakers were keen on keeping to the format and found it awkward to work with. If only they would&#39;ve relied more on the facilitators which really did an excellent job at managing the stream of questions.&lt;/p&gt;
+&lt;p&gt;Overall I found some of the sessions useful and when there wasn&#39;t something I wanted to attend, I had the discussions with fellow testers and of course the Test Lab.&lt;/p&gt;
+&lt;p&gt;And here&#39;s a tweet cloud of all esconfs tweets from Monday 4th of November to Sunday 17th of November.&lt;/p&gt;
+&lt;p&gt;&lt;!-- begin tag cloud : generated by TagCrowd.com Feel free to modify as long as you keep this notice. EMBEDDING INSTRUCTIONS: 1. Customize your cloud&#39;s style by editing the CSS where it says CUSTOMIZE below. 2. Insert this code in its entirety into your webpage or blog post. This code and its rendered image are released under the Creative Commons Attribution-Noncommercial 3.0 Unported License. (http://creativecommons.org/licenses/by-nc/3.0/) For COMMERCIAL USE LICENSING, visit http://tagcrowd.com/licensing.html --&gt;&lt;/p&gt;
+&lt;style type=&quot;text/css&quot;&gt;&lt;!--&lt;br /&gt;
+#htmltagcloud{ /******************************************  * CUSTOMIZE CLOUD CSS BELOW (optional)  */ 	font-size: 100%; 	width: auto;		/* auto or fixed width, e.g. 500px   */ 	font-family:&#39;lucida grande&#39;,&#39;trebuchet ms&#39;,arial,helvetica,sans-serif; 	background-color:#fff; 	margin:1em 1em 0 1em; 	border:2px dotted #ddd; 	padding:2em;  /******************************************  * END CUSTOMIZE  */ }#htmltagcloud{line-height:2.4em;word-spacing:normal;letter-spacing:normal;text-transform:none;text-align:justify;text-indent:0}#htmltagcloud a:link{text-decoration:none}#htmltagcloud a:visited{text-decoration:none}#htmltagcloud a:hover{color:white;background-color:#05f}#htmltagcloud a:active{color:white;background-color:#03d}.wrd{padding:0;position:relative}.wrd a{text-decoration:none}.tagcloud0{font-size:1.0em;color:#ACC1F3;z-index:10}.tagcloud0 a{color:#ACC1F3}.tagcloud1{font-size:1.4em;color:#ACC1F3;z-index:9}.tagcloud1 a{color:#ACC1F3}.tagcloud2{font-size:1.8em;color:#86A0DC;z-index:8}.tagcloud2 a{color:#86A0DC}.tagcloud3{font-size:2.2em;color:#86A0DC;z-index:7}.tagcloud3 a{color:#86A0DC}.tagcloud4{font-size:2.6em;color:#607EC5;z-index:6}.tagcloud4 a{color:#607EC5}.tagcloud5{font-size:3.0em;color:#607EC5;z-index:5}.tagcloud5 a{color:#607EC5}.tagcloud6{font-size:3.3em;color:#4C6DB9;z-index:4}.tagcloud6 a{color:#4C6DB9}.tagcloud7{font-size:3.6em;color:#395CAE;z-index:3}.tagcloud7 a{color:#395CAE}.tagcloud8{font-size:3.9em;color:#264CA2;z-index:2}.tagcloud8 a{color:#264CA2}.tagcloud9{font-size:4.2em;color:#133B97;z-index:1}.tagcloud9 a{color:#133B97}.tagcloud10{font-size:4.5em;color:#002A8B;z-index:0}.tagcloud10 a{color:#002A8B}.freq{font-size:10pt !important;color:#bbb}#credit{text-align:center;color:#333;margin-bottom:0.6em;font:0.7em &#39;lucida grande&#39;,trebuchet,&#39;trebuchet ms&#39;,verdana,arial,helvetica,sans-serif}#credit a:link{color:#777;text-decoration:none}#credit a:visited{color:#777;text-decoration:none}#credit a:hover{color:white;background-color:#05f}#credit a:active{text-decoration:underline}// --&gt;&lt;br /&gt;
+--&gt;&lt;/style&gt;
+
+&lt;div id=&quot;htmltagcloud&quot;&gt;&lt;span class=&quot;wrd tagcloud5&quot; id=&quot;0&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;Dublin &lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud4&quot; id=&quot;1&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;EuroSTAR &lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud1&quot; id=&quot;2&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;Gothenburg &lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;3&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;KeithKlain &lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;4&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;Mauri &lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;5&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;Taste &lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud2&quot; id=&quot;6&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;TheTestLab &lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud5&quot; id=&quot;7&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;amp&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;8&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;best&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;9&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;blog&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud1&quot; id=&quot;10&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;book&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;11&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;booth&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;12&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;chair&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud2&quot; id=&quot;13&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;check&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud5&quot; id=&quot;14&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;community&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud5&quot; id=&quot;15&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;conference&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;16&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;coveredincloth&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud1&quot; id=&quot;17&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;desk&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud3&quot; id=&quot;18&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;enjoyed&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;19&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;everyone&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;20&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;gerrard&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud3&quot; id=&quot;21&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;glad&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;22&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;going&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud4&quot; id=&quot;23&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;hope&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud4&quot; id=&quot;24&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;hub&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;25&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;james&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud1&quot; id=&quot;26&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;join&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud3&quot; id=&quot;27&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;keynote&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud5&quot; id=&quot;28&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;michaelbolton&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;29&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;networking&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;30&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;opening&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud1&quot; id=&quot;31&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;paul&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud1&quot; id=&quot;32&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;people&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;33&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;please&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;34&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;programme&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud1&quot; id=&quot;35&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;ready&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud5&quot; id=&quot;36&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;session&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;37&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;sign&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;38&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;stephenjanaway&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud1&quot; id=&quot;39&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;taking&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud5&quot; id=&quot;40&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;talk&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud2&quot; id=&quot;41&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;team&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud0&quot; id=&quot;42&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;testers&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud1&quot; id=&quot;43&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;testertested&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud9&quot; id=&quot;44&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;testing&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud7&quot; id=&quot;45&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;thanks&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud2&quot; id=&quot;46&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;tutorial&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud3&quot; id=&quot;47&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;welcome&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud2&quot; id=&quot;48&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;win&lt;/a&gt;&lt;/span&gt; &lt;span class=&quot;wrd tagcloud5&quot; id=&quot;49&quot;&gt;&lt;a href=&quot;#tagcloud&quot;&gt;year&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div id=&quot;credit&quot;&gt;created at &lt;a href=&quot;http://tagcrowd.com&quot;&gt;TagCrowd.com&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;!-- end tag cloud : generated by TagCrowd.com : please keep this notice --&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/speaking/events/questioning-eurostar-conference/&quot;&gt;Questioning EuroSTAR conference&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on November 18, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Speaking at EuroSTAR Conference]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/speaking/events/eurostarconference/" />
+  <id>http://localhost:4000/speaking/events/eurostarconference</id>
+  <published>2013-10-29T23:40:28+00:00</published>
+  <updated>2013-10-29T23:40:28+00:00</updated>
+  <author>
+    <name>Adrian Rapan</name>
+    <uri>http://localhost:4000</uri>
+    <email>adrian@testfeed.co.uk</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Shortly Eurostar Conference will be under way from 4th of November to 7th of November in Gothenburg, Sweden. If you have never attended the conference, it&#39;s a great way to meet a lot of people that make up the European testing community. It&#39;s also one of the best ways to learn about software testing and what it means to go beyond the day to day job. The conference will be packed with people passionate about their trade eager to see what&#39;s new in the wild and get a different perspective on existing practices.&lt;br /&gt;
+This year the conference will take a new turn in the form of cutting down the speaker&#39;s time to 30 minutes thus allowing for more audience interaction which can only be beneficial for both sides.&lt;/p&gt;
+&lt;p&gt;I&#39;ll be there presenting on the topic of Questioning Acceptance Tests on Tuesday 5th of November from 16:00 (UTC +1). It will be a mixture of technologies we&#39;re using at LMAX Exchange to increase our testing coverage. You&#39;ll be hearing a lot about &lt;a title=&quot;No....not that Spock....this Spock - https://code.google.com/p/spock/&quot; href=&quot;http://www.startrek.com/database_article/spock&quot;&gt;Spock&lt;/a&gt;, &lt;a title=&quot;QuickCheck on WIkipedia&quot; href=&quot;http://en.wikipedia.org/wiki/QuickCheck&quot; target=&quot;_blank&quot;&gt;QuickCheck&lt;/a&gt; and &lt;a title=&quot;Property based testing post&quot; href=&quot;http://blog.jessitron.com/2013/04/property-based-testing-what-is-it.html&quot; target=&quot;_blank&quot;&gt;property based testing&lt;/a&gt;. For more details checkout the official page of the talk&lt;br /&gt;
+&lt;a title=&quot;Questioning Acceptance Tests&quot; href=&quot;http://www.eurostarconferences.com/conferences/session/428/questioning-acceptance-tests&quot; target=&quot;_blank&quot;&gt;http://www.eurostarconferences.com/conferences/session/428/questioning-acceptance-tests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can also get more details on the conference here &lt;a title=&quot;Eurostar Conference&quot; href=&quot;http://www.eurostarconferences.com/conferences/2013&quot; target=&quot;_blank&quot;&gt;http://www.eurostarconferences.com/conferences/2013&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hope to see you there.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/speaking/events/eurostarconference/&quot;&gt;Speaking at EuroSTAR Conference&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on October 29, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Testing a symphony orchestra]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/mind%20map/testing-a-symphony-orchestra/" />
+  <id>http://localhost:4000/mind%20map/testing-a-symphony-orchestra</id>
+  <published>2013-02-03T19:08:46+00:00</published>
+  <updated>2013-02-03T19:08:46+00:00</updated>
+  <author>
+    <name>Adrian Rapan</name>
+    <uri>http://localhost:4000</uri>
+    <email>adrian@testfeed.co.uk</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I recently went to hear the LSO perform at their residence within the Barbican centre. The full complement of 91 people performed 3 classical pieces and 3 more &quot;movie soundtrack&quot; kind of pieces as a friend called them.&lt;br /&gt;
+Half way into the first piece I started thinking of an analogy between the musical system that was the orchestra and a run of the mill system. First question that came to mind was how would you go about testing something as complex as this.&lt;br /&gt;
+Now you experts out there would probably say in an instant, that the musicality matters the most i.e. if it&#39;s easy on the ear then probably the system is working well. Since I&#39;m no expert and don&#39;t possess such finely tuned measurement tool I took a different approach.&lt;br /&gt;
+My first idea was to grab a pen and write every idea that comes to mind. The programme got quite a beating. The intention was to then bring all those random ideas under the umbrella of a mind map. Enter &lt;a href=&quot;http://www.mindmup.com&quot; target=&quot;_blank&quot;&gt;mindmup&lt;/a&gt;, a tool that a colleague suggested some time a go. It&#39;s free and, as any other self respecting projects out there, it&#39;s online. And just to top it all up it&#39;s &lt;a href=&quot;https://github.com/mindmup/&quot; target=&quot;_blank&quot;&gt;now&lt;/a&gt; open source.&lt;br /&gt;
+So here&#39;s what I gathered while listening to the LSO performing Enescu&#39;s Rhapsody No. 1&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://goo.gl/drDQFC&quot; target=&quot;_blank&quot;&gt;Strategy for testing a symphony orchestra&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mindmup.com/map/b/testfeed/Strategy%20for%20testing%20a%20%20symphony%20orchestra.mup&quot; data-role=&quot;mindmup-embed&quot; title=&quot;Strategy for testing a symphony orchestra&quot; data-width=&quot;90%&quot; data-height=&quot;500&quot; data-style=&quot;border:1px solid black;margin-bottom:5px;&quot;&gt;Strategy for testing a symphony orchestra on MindMup&lt;/a&gt;&lt;br /&gt;
+&lt;script async=&quot;&quot; src=&quot;https://www.mindmup.com/external-embed.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/mind%20map/testing-a-symphony-orchestra/&quot;&gt;Testing a symphony orchestra&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on February 03, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Integration vs Acceptance tests]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/automation/integration-vs-acceptance-tests/" />
+  <id>http://localhost:4000/automation/integration-vs-acceptance-tests</id>
+  <published>2013-01-30T00:17:38+00:00</published>
+  <updated>2013-01-30T00:17:38+00:00</updated>
+  <author>
+    <name>Adrian Rapan</name>
+    <uri>http://localhost:4000</uri>
+    <email>adrian@testfeed.co.uk</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Recently at LMAX Exchange, we&#39;ve started using more and more of what we call integration tests which prompted a post on how we use integration tests and how we differentiate them from acceptance tests.&lt;/p&gt;
+&lt;p&gt;To start off, a few definitions are in order:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;we define an &lt;em&gt;acceptance test&lt;/em&gt; as an external client that encompasses enough information on how to drive the system under test (SUT) in order to bring it to the point of asserting something.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;integration tests&lt;/em&gt;, on the other hand, are used for testing the internals of the system and are geared towards validating contracts between modules of code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[table colalign=&quot;left|left&quot;]&lt;br /&gt;
+Acceptance Tests,Integration Tests&lt;br /&gt;
+cover at a minimum&quot;,&quot; all the requirements in a story,focus on the same set of requirements as acceptance tests&lt;br /&gt;
+used to capture the emergent behaviour that&#39;s inherent to a story,the code produces emergent behaviour as well; with the help of integration tests the units that drive the emergent behaviour can be tested&lt;/p&gt;
+&lt;p&gt;use the business domain language, they tend to leak implementation and use more of the code base language since they&#39;re targeting lower functional units which don&#39;t necessarily translate into business concepts&lt;/p&gt;
+&lt;p&gt;usually built on top of several abstraction layers and can be understood by the business users,we use abstraction layers in a similar way to our acceptance test framework to get the same efficiency in writing integration tests; business users have a limited interest in them&lt;/p&gt;
+&lt;p&gt;test the end to end wiring&quot;,&quot; starting from the internals of the system all the way to the external users of the system,they focus more on the internals of the system and tend to be kept simple in terms of how many modules participate in making a test pass&lt;br /&gt;
+feedback is slow but more comprehensive,quick feedback as the system doesn&#39;t need to be brought up&lt;br /&gt;
+they will suffer from intermittency due to so many outside factors,quick to debug and run as part of every commit; it&#39;s hard to introduce any intermittency&lt;/p&gt;
+&lt;p&gt;they use third party tools/dependencies&quot;,&quot; e.g. webdriver&quot;,&quot; to complement testing the system through external clients like a browser,keep clear of external tools and the only dependencies are the ones used by the production code&lt;/p&gt;
+&lt;p&gt;have a well defined external API (most probably the same API that clients use) for interacting with the SUT,use the internal APIs of the modules under test&lt;/p&gt;
+&lt;p&gt;have bigger costs in terms of authoring and maintaining; there&#39;s always a judgement call about encoding a specific behaviour in an acceptance test,with integration tests you can go nuts and test a lot of edge and negative cases&lt;/p&gt;
+&lt;p&gt;although more costly&quot;,&quot; acceptance tests catch more complex bugs,act as a pin pointing method for isolating bugs; they&#39;ll always be easier to debug&lt;/p&gt;
+&lt;p&gt;can successfully be used in proving the functionality to the users through showcases; their side effects are observable and familiar to the users,the output from an integration test run will seem cryptic and uninteresting to people outside of the feature teams&lt;br /&gt;
+[/table]&lt;/p&gt;
+&lt;p&gt;We&#39;ve started using more and more integration tests to validate requirements. This means they&#39;re no longer the lost cousin of unit tests but rather the new kid on the block right up there with the acceptance tests when it comes to testing in an agile environment.&lt;/p&gt;
+&lt;p&gt;If you&#39;re using integration tests leave a comment about how you&#39;re using them and how your peers see them.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/automation/integration-vs-acceptance-tests/&quot;&gt;Integration vs Acceptance tests&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on January 30, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[About]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/about/" />
+  <id>http://localhost:4000/about</id>
+  <published>2013-01-28T01:22:19+00:00</published>
+  <updated>2013-01-28T01:22:19+00:00</updated>
+  <author>
+    <name>Adrian Rapan</name>
+    <uri>http://localhost:4000</uri>
+    <email>adrian@testfeed.co.uk</email>
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/about/&quot;&gt;About&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on January 28, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Lessons learned from my first webinar]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/coaching/lessons-learned-from-my-first-webinar/" />
+  <id>http://localhost:4000/coaching/lessons-learned-from-my-first-webinar</id>
+  <published>2013-01-27T22:43:54+00:00</published>
+  <updated>2013-01-27T22:43:54+00:00</updated>
+  <author>
+    <name>Adrian Rapan</name>
+    <uri>http://localhost:4000</uri>
+    <email>adrian@testfeed.co.uk</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;As things have it, I decided to help out some fellow testers to navigate the waters of software testing. It all started with a bit of a chat on how to approach testing when you&#39;re a junior and generally inexperienced. What to start reading, what to try out and all sort of other &quot;what&quot; type questions.&lt;/p&gt;
+&lt;p&gt;So to that extent I gathered 3 guinea pigs and presented them with an offering of 6 potential subjects that I could cover. These included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Exploratory testing&lt;/li&gt;
+&lt;li&gt;Automation&lt;/li&gt;
+&lt;li&gt;Trends in the industry&lt;/li&gt;
+&lt;li&gt;Learning material: blogs/books/videos/courses&lt;/li&gt;
+&lt;li&gt;Skills&lt;/li&gt;
+&lt;li&gt;Software development life cycle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&#39;ve decided, based on the time constraints of each individual, to go for 1 hour format. Due to this aspect, I&#39;ve set up a poll to better understand the priorities in which to cover the agenda. I also enforced a number of only 4 subjects. The outcome of the poll was:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exploratory testing&lt;/li&gt;
+&lt;li&gt;Automation&lt;/li&gt;
+&lt;li&gt;SDLC&lt;/li&gt;
+&lt;li&gt;Learning material&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This whole learning exercise took the shape of a webinar using skype as a conference tool and some screen sharing. In order to prepare for this event I prepared a mind map to guide my thoughts and decided to have the first 40 minutes to do a bird&#39;s eye view of the 4 areas. After that I envisaged people to have questions that I could answer or maybe point them into the right direction for self enlightenment.&lt;/p&gt;
+&lt;p&gt;Bit of a context here - out of the 3 participants, one wanted to switch between development and testing, another one was only starting to get serious about testing and didn&#39;t quite know if this is for him, and the third one had already 2 years of experience but wanted to hear fresh ideas.&lt;/p&gt;
+&lt;p&gt;Right. So 1 hour, 4 subjects. How many did I manage to cover in 2 hours? Exactly 1 - Exploratory testing.&lt;/p&gt;
+&lt;p&gt;And here are some of the lessons I learned:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;line-height: 13px;&quot;&gt;don&#39;t try and cover too much if you&#39;re trying to squeeze everything in 1 hour&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;don&#39;t choose broad areas&lt;/li&gt;
+&lt;li&gt;the knowledge gap between the participants can be a disadvantage. Some will expect different levels of approaching the subject. Also the questions coming from some participants will probably bore the others or even worse baffle them even more.&lt;/li&gt;
+&lt;li&gt;using skype isn&#39;t the best thing in the world when you try to convey information as you can&#39;t get a feel for people&#39;s shoulder shrugging&lt;/li&gt;
+&lt;li&gt;maybe a webinar wasn&#39;t such a great idea. It seemed more like a coaching kind of sessions. This would&#39;ve probably went a lot better in a 1-to-1 session&lt;/li&gt;
+&lt;li&gt;get them &quot;warmed&quot; up on the subject by sharing some articles/videos they can go over and if they have questions they can bring them up during the online session&lt;/li&gt;
+&lt;li&gt;some of the feedback suggested a more practical session - this came from the more experienced of the 3 and probably falls under managing expectations and the knowledge gap&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Well this was more of an exercise to me to try and get feedback on what works and what doesn&#39;t. I&#39;ll definitely try and do more sessions in the future. If you&#39;re interested, let me know and we&#39;ll see what we can do.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/coaching/lessons-learned-from-my-first-webinar/&quot;&gt;Lessons learned from my first webinar&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on January 27, 2013.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>
