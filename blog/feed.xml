@@ -2,26 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">TestFeed</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2017-10-25T14:05:37+01:00</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://testfeed.co.uk/blog//feed.xml" />
+<link rel="alternate" type="text/html" href="http://testfeed.co.uk/blog/" />
+<updated>2017-10-25T14:09:41+01:00</updated>
+<id>http://testfeed.co.uk/blog//</id>
 <author>
   <name>Adrian Rapan</name>
-  <uri>http://localhost:4000/</uri>
+  <uri>http://testfeed.co.uk/blog//</uri>
   <email>adrian@testfeed.co.uk</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Looking back at Testathon]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/uncategorized/testing/looking-back-at-testathon/" />
-  <id>http://localhost:4000/uncategorized/testing/looking-back-at-testathon</id>
+ <link rel="alternate" type="text/html" href="http://testfeed.co.uk/blog//uncategorized/testing/looking-back-at-testathon/" />
+  <id>http://testfeed.co.uk/blog//uncategorized/testing/looking-back-at-testathon</id>
   <published>2014-03-11T04:57:00+00:00</published>
   <updated>2014-03-11T04:57:00+00:00</updated>
   <author>
     <name>Adrian Rapan</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://testfeed.co.uk/blog/</uri>
     <email>adrian@testfeed.co.uk</email>
   </author>
   <content type="html">
@@ -40,20 +40,20 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;I would definitely attend the next one. Also the organisers promised a document to sum up the participants&#39; experiences. When that surfaces I&#39;ll add it here.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/uncategorized/testing/looking-back-at-testathon/&quot;&gt;Looking back at Testathon&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on March 11, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://testfeed.co.uk/blog//uncategorized/testing/looking-back-at-testathon/&quot;&gt;Looking back at Testathon&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://testfeed.co.uk/blog/&quot;&gt;TestFeed&lt;/a&gt; on March 11, 2014.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[LMAX Exchange is hiring]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/uncategorized/lmax-exchange-is-hiring/" />
-  <id>http://localhost:4000/uncategorized/lmax-exchange-is-hiring</id>
+ <link rel="alternate" type="text/html" href="http://testfeed.co.uk/blog//uncategorized/lmax-exchange-is-hiring/" />
+  <id>http://testfeed.co.uk/blog//uncategorized/lmax-exchange-is-hiring</id>
   <published>2013-11-24T23:48:50+00:00</published>
   <updated>2013-11-24T23:48:50+00:00</updated>
   <author>
     <name>Adrian Rapan</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://testfeed.co.uk/blog/</uri>
     <email>adrian@testfeed.co.uk</email>
   </author>
   <content type="html">
@@ -69,20 +69,20 @@
 &lt;p&gt;If you join LMAX Exchange, you&#39;ll get to play with a very mature custom testing framework (think API clients and Webdriver) and interact with some of the best Java developers out there. Also you&#39;ll be part of a proper agile team where the business actually gets it.&lt;/p&gt;
 &lt;p&gt;Let me know if your interested or checkout this URL - &lt;a href=&quot;http://www.lmax.com/careers#senior-test-analyst&quot;&gt;http://www.lmax.com/careers#senior-test-analyst&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/uncategorized/lmax-exchange-is-hiring/&quot;&gt;LMAX Exchange is hiring&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on November 24, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://testfeed.co.uk/blog//uncategorized/lmax-exchange-is-hiring/&quot;&gt;LMAX Exchange is hiring&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://testfeed.co.uk/blog/&quot;&gt;TestFeed&lt;/a&gt; on November 24, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Psychology of an Inventive Tester]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/testing/heuristics/psychology-of-an-inventive-tester/" />
-  <id>http://localhost:4000/testing/heuristics/psychology-of-an-inventive-tester</id>
+ <link rel="alternate" type="text/html" href="http://testfeed.co.uk/blog//testing/heuristics/psychology-of-an-inventive-tester/" />
+  <id>http://testfeed.co.uk/blog//testing/heuristics/psychology-of-an-inventive-tester</id>
   <published>2013-11-21T20:18:01+00:00</published>
   <updated>2013-11-21T20:18:01+00:00</updated>
   <author>
     <name>Adrian Rapan</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://testfeed.co.uk/blog/</uri>
     <email>adrian@testfeed.co.uk</email>
   </author>
   <content type="html">
@@ -95,20 +95,20 @@ I can’t get enough of quoting this little phrase which has such a huge impact 
 Now in order to avoid getting mixed feelings about the application instead of what should have been a clear and concise mental model of the system here is a recommendation:&lt;br /&gt;
 Start out with a mind map and jot down all your creative thoughts. After finishing, take a step back and analyse which nodes of your mind map might be too outrageous to happen or it’s not that they will never happen but let’s just say that it’s not in the user’s best interest to unplug the computer. Your rule must be “if it makes sense for the business it stays in the mind map”. Get a business analyst to help you focus and remove extraneous ideas from your mind map. Use a tool to make notes on what you observe while testing. Your mental model of the system will need a refresh from time to time. This usually happens when you think that there are no bugs left in the system. One of the best ways to refresh your ideas is to get rid of what you’ve already covered. With a repository you will more easily remember everything you did and all the conclusions you’ve drawn along the way.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/testing/heuristics/psychology-of-an-inventive-tester/&quot;&gt;Psychology of an Inventive Tester&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on November 21, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://testfeed.co.uk/blog//testing/heuristics/psychology-of-an-inventive-tester/&quot;&gt;Psychology of an Inventive Tester&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://testfeed.co.uk/blog/&quot;&gt;TestFeed&lt;/a&gt; on November 21, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Co-presenting at Agile Testing & BDD eXchange]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/speaking/events/agile-testing-bdd-exchange/" />
-  <id>http://localhost:4000/speaking/events/agile-testing-bdd-exchange</id>
+ <link rel="alternate" type="text/html" href="http://testfeed.co.uk/blog//speaking/events/agile-testing-bdd-exchange/" />
+  <id>http://testfeed.co.uk/blog//speaking/events/agile-testing-bdd-exchange</id>
   <published>2013-11-21T12:19:59+00:00</published>
   <updated>2013-11-21T12:19:59+00:00</updated>
   <author>
     <name>Adrian Rapan</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://testfeed.co.uk/blog/</uri>
     <email>adrian@testfeed.co.uk</email>
   </author>
   <content type="html">
@@ -119,20 +119,20 @@ For more details check out the official page of the talk&lt;br /&gt;
 &lt;a href=&quot;http://skillsmatter.com/event/agile-testing/agile-testing-bdd-exchange-2013&quot; target=&quot;_blank&quot;&gt;http://skillsmatter.com/event/agile-testing/agile-testing-bdd-exchange-2013&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hope to see you there.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/speaking/events/agile-testing-bdd-exchange/&quot;&gt;Co-presenting at Agile Testing &amp; BDD eXchange&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on November 21, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://testfeed.co.uk/blog//speaking/events/agile-testing-bdd-exchange/&quot;&gt;Co-presenting at Agile Testing &amp; BDD eXchange&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://testfeed.co.uk/blog/&quot;&gt;TestFeed&lt;/a&gt; on November 21, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Questioning EuroSTAR conference]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/speaking/events/questioning-eurostar-conference/" />
-  <id>http://localhost:4000/speaking/events/questioning-eurostar-conference</id>
+ <link rel="alternate" type="text/html" href="http://testfeed.co.uk/blog//speaking/events/questioning-eurostar-conference/" />
+  <id>http://testfeed.co.uk/blog//speaking/events/questioning-eurostar-conference</id>
   <published>2013-11-18T01:05:09+00:00</published>
   <updated>2013-11-18T01:05:09+00:00</updated>
   <author>
     <name>Adrian Rapan</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://testfeed.co.uk/blog/</uri>
     <email>adrian@testfeed.co.uk</email>
   </author>
   <content type="html">
@@ -162,20 +162,20 @@ For more details check out the official page of the talk&lt;br /&gt;
 &lt;div id=&quot;credit&quot;&gt;created at &lt;a href=&quot;http://tagcrowd.com&quot;&gt;TagCrowd.com&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;&lt;!-- end tag cloud : generated by TagCrowd.com : please keep this notice --&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/speaking/events/questioning-eurostar-conference/&quot;&gt;Questioning EuroSTAR conference&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on November 18, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://testfeed.co.uk/blog//speaking/events/questioning-eurostar-conference/&quot;&gt;Questioning EuroSTAR conference&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://testfeed.co.uk/blog/&quot;&gt;TestFeed&lt;/a&gt; on November 18, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Speaking at EuroSTAR Conference]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/speaking/events/eurostarconference/" />
-  <id>http://localhost:4000/speaking/events/eurostarconference</id>
+ <link rel="alternate" type="text/html" href="http://testfeed.co.uk/blog//speaking/events/eurostarconference/" />
+  <id>http://testfeed.co.uk/blog//speaking/events/eurostarconference</id>
   <published>2013-10-29T23:40:28+00:00</published>
   <updated>2013-10-29T23:40:28+00:00</updated>
   <author>
     <name>Adrian Rapan</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://testfeed.co.uk/blog/</uri>
     <email>adrian@testfeed.co.uk</email>
   </author>
   <content type="html">
@@ -186,20 +186,20 @@ This year the conference will take a new turn in the form of cutting down the sp
 &lt;p&gt;You can also get more details on the conference here &lt;a title=&quot;Eurostar Conference&quot; href=&quot;http://www.eurostarconferences.com/conferences/2013&quot; target=&quot;_blank&quot;&gt;http://www.eurostarconferences.com/conferences/2013&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hope to see you there.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/speaking/events/eurostarconference/&quot;&gt;Speaking at EuroSTAR Conference&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on October 29, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://testfeed.co.uk/blog//speaking/events/eurostarconference/&quot;&gt;Speaking at EuroSTAR Conference&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://testfeed.co.uk/blog/&quot;&gt;TestFeed&lt;/a&gt; on October 29, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Testing a symphony orchestra]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/mind%20map/testing-a-symphony-orchestra/" />
-  <id>http://localhost:4000/mind%20map/testing-a-symphony-orchestra</id>
+ <link rel="alternate" type="text/html" href="http://testfeed.co.uk/blog//mind%20map/testing-a-symphony-orchestra/" />
+  <id>http://testfeed.co.uk/blog//mind%20map/testing-a-symphony-orchestra</id>
   <published>2013-02-03T19:08:46+00:00</published>
   <updated>2013-02-03T19:08:46+00:00</updated>
   <author>
     <name>Adrian Rapan</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://testfeed.co.uk/blog/</uri>
     <email>adrian@testfeed.co.uk</email>
   </author>
   <content type="html">
@@ -212,20 +212,20 @@ So here&#39;s what I gathered while listening to the LSO performing Enescu&#39;s
 &lt;p&gt;&lt;a href=&quot;https://www.mindmup.com/map/b/testfeed/Strategy%20for%20testing%20a%20%20symphony%20orchestra.mup&quot; data-role=&quot;mindmup-embed&quot; title=&quot;Strategy for testing a symphony orchestra&quot; data-width=&quot;90%&quot; data-height=&quot;500&quot; data-style=&quot;border:1px solid black;margin-bottom:5px;&quot;&gt;Strategy for testing a symphony orchestra on MindMup&lt;/a&gt;&lt;br /&gt;
 &lt;script async=&quot;&quot; src=&quot;https://www.mindmup.com/external-embed.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/mind%20map/testing-a-symphony-orchestra/&quot;&gt;Testing a symphony orchestra&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on February 03, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://testfeed.co.uk/blog//mind%20map/testing-a-symphony-orchestra/&quot;&gt;Testing a symphony orchestra&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://testfeed.co.uk/blog/&quot;&gt;TestFeed&lt;/a&gt; on February 03, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Integration vs Acceptance tests]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/automation/integration-vs-acceptance-tests/" />
-  <id>http://localhost:4000/automation/integration-vs-acceptance-tests</id>
+ <link rel="alternate" type="text/html" href="http://testfeed.co.uk/blog//automation/integration-vs-acceptance-tests/" />
+  <id>http://testfeed.co.uk/blog//automation/integration-vs-acceptance-tests</id>
   <published>2013-01-30T00:17:38+00:00</published>
   <updated>2013-01-30T00:17:38+00:00</updated>
   <author>
     <name>Adrian Rapan</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://testfeed.co.uk/blog/</uri>
     <email>adrian@testfeed.co.uk</email>
   </author>
   <content type="html">
@@ -253,39 +253,39 @@ they will suffer from intermittency due to so many outside factors,quick to debu
 &lt;p&gt;We&#39;ve started using more and more integration tests to validate requirements. This means they&#39;re no longer the lost cousin of unit tests but rather the new kid on the block right up there with the acceptance tests when it comes to testing in an agile environment.&lt;/p&gt;
 &lt;p&gt;If you&#39;re using integration tests leave a comment about how you&#39;re using them and how your peers see them.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/automation/integration-vs-acceptance-tests/&quot;&gt;Integration vs Acceptance tests&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on January 30, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://testfeed.co.uk/blog//automation/integration-vs-acceptance-tests/&quot;&gt;Integration vs Acceptance tests&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://testfeed.co.uk/blog/&quot;&gt;TestFeed&lt;/a&gt; on January 30, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[About]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/about/" />
-  <id>http://localhost:4000/about</id>
+ <link rel="alternate" type="text/html" href="http://testfeed.co.uk/blog//about/" />
+  <id>http://testfeed.co.uk/blog//about</id>
   <published>2013-01-28T01:22:19+00:00</published>
   <updated>2013-01-28T01:22:19+00:00</updated>
   <author>
     <name>Adrian Rapan</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://testfeed.co.uk/blog/</uri>
     <email>adrian@testfeed.co.uk</email>
   </author>
   <content type="html">
     
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/about/&quot;&gt;About&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on January 28, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://testfeed.co.uk/blog//about/&quot;&gt;About&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://testfeed.co.uk/blog/&quot;&gt;TestFeed&lt;/a&gt; on January 28, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Lessons learned from my first webinar]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/coaching/lessons-learned-from-my-first-webinar/" />
-  <id>http://localhost:4000/coaching/lessons-learned-from-my-first-webinar</id>
+ <link rel="alternate" type="text/html" href="http://testfeed.co.uk/blog//coaching/lessons-learned-from-my-first-webinar/" />
+  <id>http://testfeed.co.uk/blog//coaching/lessons-learned-from-my-first-webinar</id>
   <published>2013-01-27T22:43:54+00:00</published>
   <updated>2013-01-27T22:43:54+00:00</updated>
   <author>
     <name>Adrian Rapan</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://testfeed.co.uk/blog/</uri>
     <email>adrian@testfeed.co.uk</email>
   </author>
   <content type="html">
@@ -321,7 +321,7 @@ they will suffer from intermittency due to so many outside factors,quick to debu
 &lt;/ul&gt;
 &lt;p&gt;Well this was more of an exercise to me to try and get feedback on what works and what doesn&#39;t. I&#39;ll definitely try and do more sessions in the future. If you&#39;re interested, let me know and we&#39;ll see what we can do.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/coaching/lessons-learned-from-my-first-webinar/&quot;&gt;Lessons learned from my first webinar&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://localhost:4000&quot;&gt;TestFeed&lt;/a&gt; on January 27, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://testfeed.co.uk/blog//coaching/lessons-learned-from-my-first-webinar/&quot;&gt;Lessons learned from my first webinar&lt;/a&gt; was originally published by Adrian Rapan at &lt;a href=&quot;http://testfeed.co.uk/blog/&quot;&gt;TestFeed&lt;/a&gt; on January 27, 2013.&lt;/p&gt;
   </content>
 </entry>
 

@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:4000/uncategorized/testing/looking-back-at-testathon/</loc>
+    <loc>http://testfeed.co.uk/blog//uncategorized/testing/looking-back-at-testathon/</loc>
     <lastmod>2014-03-11T04:57:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/uncategorized/lmax-exchange-is-hiring/</loc>
+    <loc>http://testfeed.co.uk/blog//uncategorized/lmax-exchange-is-hiring/</loc>
     <lastmod>2013-11-24T23:48:50+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/testing/heuristics/psychology-of-an-inventive-tester/</loc>
+    <loc>http://testfeed.co.uk/blog//testing/heuristics/psychology-of-an-inventive-tester/</loc>
     <lastmod>2013-11-21T20:18:01+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/speaking/events/agile-testing-bdd-exchange/</loc>
+    <loc>http://testfeed.co.uk/blog//speaking/events/agile-testing-bdd-exchange/</loc>
     <lastmod>2013-11-21T12:19:59+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/speaking/events/questioning-eurostar-conference/</loc>
+    <loc>http://testfeed.co.uk/blog//speaking/events/questioning-eurostar-conference/</loc>
     <lastmod>2013-11-18T01:05:09+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/speaking/events/eurostarconference/</loc>
+    <loc>http://testfeed.co.uk/blog//speaking/events/eurostarconference/</loc>
     <lastmod>2013-10-29T23:40:28+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/mind%20map/testing-a-symphony-orchestra/</loc>
+    <loc>http://testfeed.co.uk/blog//mind%20map/testing-a-symphony-orchestra/</loc>
     <lastmod>2013-02-03T19:08:46+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/automation/integration-vs-acceptance-tests/</loc>
+    <loc>http://testfeed.co.uk/blog//automation/integration-vs-acceptance-tests/</loc>
     <lastmod>2013-01-30T00:17:38+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/about/</loc>
+    <loc>http://testfeed.co.uk/blog//about/</loc>
     <lastmod>2013-01-28T01:22:19+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/coaching/lessons-learned-from-my-first-webinar/</loc>
+    <loc>http://testfeed.co.uk/blog//coaching/lessons-learned-from-my-first-webinar/</loc>
     <lastmod>2013-01-27T22:43:54+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/404.html</loc>
-    <lastmod>2017-10-25T14:05:37+01:00</lastmod>
+    <loc>http://testfeed.co.uk/blog//404.html</loc>
+    <lastmod>2017-10-25T14:09:41+01:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/posts/</loc>
-    <lastmod>2017-10-25T14:05:37+01:00</lastmod>
+    <loc>http://testfeed.co.uk/blog//posts/</loc>
+    <lastmod>2017-10-25T14:09:41+01:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/tags/</loc>
-    <lastmod>2017-10-25T14:05:37+01:00</lastmod>
+    <loc>http://testfeed.co.uk/blog//tags/</loc>
+    <lastmod>2017-10-25T14:09:41+01:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:4000/</loc>
-    <lastmod>2017-10-25T14:05:37+01:00</lastmod>
+    <loc>http://testfeed.co.uk/blog//</loc>
+    <lastmod>2017-10-25T14:09:41+01:00</lastmod>
   </url>
 </urlset>
